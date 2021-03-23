@@ -1,10 +1,9 @@
-import React from 'react';
-import './App.css';
-import CalendarSummary from './CalendarSummary';
+import React from "react";
+import CalendarSummary from "./CalendarSummary";
 
 function App() {
   return (
-    <div className="App" style={{ maxWidth: '1000px', margin: 'auto' }}>
+    <div className="App">
       <CalendarSummary />
     </div>
   );
